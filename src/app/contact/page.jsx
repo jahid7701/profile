@@ -9,7 +9,7 @@ const Contact = () => {
         <p>You can call me any  </p>
 {
     test.map((pre,index)=>(
-        <Link href={pre.link}>Test</Link>
+        <Link href={pre.link} key={index}>Test</Link>
     ))
 }
     </div>;
